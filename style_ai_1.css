@@ -1,0 +1,121 @@
+.navbar {
+    background-color: #000;
+    height:5vh;
+}
+
+.navbar a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1.25vh 1vw; 
+    text-decoration: none;
+    font-size: 2.3vh; 
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    cursor: pointer;
+}
+
+header {
+    height: 5vh;
+    padding: 20px 0 70px 0;
+    object-fit: cover;
+    background: url(assets/fire.jpg);
+    background-size: cover;
+    
+    filter: blur(6px);
+    background-attachment: fixed fixed;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    height: 5vh;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 5em;
+    margin-top: 2.5%;
+    margin-left: 48%;
+    color: #3e3e3e;
+    font-weight: normal;
+    text-align: center;
+}
+
+body {
+    background: url("assets/wood_background.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.image-text-container {
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+
+.image {
+    width: 90%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(128, 128, 128, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.5em;
+}
+
+.right-square {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #575757;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #333; /* Dark background for the title */
+    padding: 10px;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff; /* White background for the text area */
+    color: #333; /* Dark text color for contrast */
+}
+
+
+

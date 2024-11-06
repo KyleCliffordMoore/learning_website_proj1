@@ -1,0 +1,84 @@
+.navbar {
+    position: absolute;
+    background-color: rgba(49, 0, 243, 0.2);
+    height:5vh;
+    margin-top: 0vh;
+}
+
+.navbar a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1.25vh 1vw; 
+    text-decoration: none;
+    font-size: 2.3vh; 
+    align-content: end;
+}
+
+.navbar a:hover {
+    background-color: rgba(49, 0, 243, 0.5);
+    cursor: pointer;
+}
+
+body {
+    background: url("assets/home_page_image.png");
+    background-size: cover;
+}
+
+
+header {
+    height: 10vh;
+    /* padding: 20px 0 70px 0; */
+    
+    /* filter: blur(6px); */
+    background-attachment: fixed fixed;
+    border-bottom: 15px solid #1740f4;
+}
+
+h1 {
+    
+    position: absolute;
+    top: -11vh;
+    height: 20vh;
+    width: 20vw;
+    font-family: cursive;
+    font-size: 7em;
+    /* margin-top: 3.5%; */
+    /* margin-left: 15%; */
+    color: rgba(47, 67, 75, 0.5);
+    font-weight: normal;
+    text-align: right;
+    /* background-image: url("assets/hello-shine.gif"); */
+    /* background-size: contain; */
+} 
+
+body .mysquare {
+    position: absolute;
+    display: flex;
+    margin-top: 38vh;
+    margin-bottom: 1vh;
+
+    background-color: rgba(0, 0, 0, .45);
+}
+
+body .mysquare p {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: whitesmoke;
+}
+
+body .mysquare h2 {
+    margin-left: 2vw;
+    color: lightyellow;
+} 
+
+body img {
+    margin-top: 8vh;
+    width: 24vw;
+    height: 24vh;
+}
+
+a {
+    color: whitesmoke;
+}

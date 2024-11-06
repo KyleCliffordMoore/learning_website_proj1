@@ -1,0 +1,78 @@
+<link rel="stylesheet" id="stylesheet" href="style_home_2.css">
+<script src="function.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Moore's high quality website!</title>
+</head>
+<body>
+    <header role="banner">
+    </header>
+    <h1>Welcome to Kyle's website!</h1>
+    <div class="navbar">
+        <a class="nav_button" href = "index.html">Home</a>
+        <a class="nav_button" href = "portfolio.html">Portfolio</a>
+        <a class="nav_button" href = "qualifications.html">Qualifications</a>
+        <a class="nav_button" href = "service.html">Service</a>
+        <a class="nav_button" href = "ai.html">AI</a>
+        <a class="nav_button" onclick="toggleStyleSheet()">Switch Theme</a>
+    </div>
+    <div class="mysquare">
+        <div class="text_section">
+
+            <h2>About Kyle Moore</h2>
+            
+            <p>
+                I am Kyle Moore, a junior in Computer Science and I am currently a TA for CSCE 110 as well as minoring in cybersecurity. I would consider myself
+                a team player and I do feel as if I have an edge on my fellow students in this class as I already have familiarity with backend design and PostgreSQL 
+                as well as a deep understanding of Java. Over the yeas I have learned many languages with varying design philosophies ranging from C to Haskell to SQL 
+                and a lot more. I feel that this has made me flexible when it comes to creating projects. That being said I am always excited to learn more and push 
+                myself in this class.
+            </p>
+
+            <p>
+                I am currently an officer in TIDAL, for this club I do a lot of outreach as well as present on AI topics and help lead Hackathons. I have also 
+                participated in an Aggie Coding Club project called Tick Tock in which we made our own mock version of a messaging app. 
+            </p>
+
+            <p> 
+                I view Computer Science as more than just a means to an end of making money, I have always enjoyed programming. When I was younger I used to mod 
+                games and make Discord bots using Discord's and the game I was interested in API's to pull and view stats. I believe that I am an excellent fit 
+                for any corporation as I am a hard worker with big ideas. 
+                I enjoy spending a lot of time with friends and also going out to the country 
+                as my family has a plot of land between Love Lady and Trinity Texas. When hanging out with friends we will often play videos games 
+                and when I am out in the country I spend a lot of my time dirt biking and hanging out with family friends who also has land next to 
+                ours.
+            </p>
+
+            <p>
+                <br>
+                Get involved with Tidal: <a href="https://getinvolved.tamu.edu/org/tidaltamu">https://getinvolved.tamu.edu/org/tidaltamu</a>
+                <br>
+                Aggie Coding club: <a href="https://www.aggiecodingclub.com/">https://www.aggiecodingclub.com/</a>
+                <br>
+                Linked in: <a href="https://www.linkedin.com/in/kylecliffordmoore/">https://www.linkedin.com/in/kylecliffordmoore/</a>
+                <br>
+                School Github: <a href="https://github.com/KyleM-tamu">https://github.com/KyleM-tamu</a>
+                <br>
+                Personal Github: <a href="https://github.com/KyleCliffordMoore/">https://github.com/KyleCliffordMoore/</a>
+            </p>
+        </div>
+
+        <img src="assets/IMG_0398.jpg">
+        <img src="assets/IMG_0621.jpg">
+    </div>
+    <script defer>
+        const urlParams = new URLSearchParams(window.location.search);
+        htmlOnly = urlParams.get('htmlonly');
+    
+        if (htmlOnly !== null) {
+            window.location.href = 'no_html_1/index.html';
+        }
+    </script>
+</body>
+</html>
+

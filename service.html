@@ -1,0 +1,58 @@
+<link rel="stylesheet" id="stylesheet" href="style_service_2.css">
+<script src="function.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Moore's high quality website!</title>
+</head>
+<body>
+    <header role="banner">
+    </header>
+    <h1>Service</h1>
+    <div class="navbar">
+        <a class="nav_button" href = "index.html">Home</a>
+        <a class="nav_button" href = "portfolio.html">Portfolio</a>
+        <a class="nav_button" href = "qualifications.html">Qualifications</a>
+        <a class="nav_button" href = "service.html">Service</a>
+        <a class="nav_button" href = "ai.html">AI</a>
+        <a class="nav_button" onclick="toggleStyleSheet()">Switch Theme</a>
+    </div>
+    <div class="mysquare">
+
+        <div class="content_section">
+            <h2>Eagle Scout Service Project</h2>
+            <p>
+                For my Eagle Scout Service Project I managed about 20 volunteers over the course of two weekends to build a bridge, 4 benches, and refurbish 
+                2 rocking chairs for a local church. For this project I raised about 2 thousand dollars. The whole project including planning took about 6 months 
+                from the time of proposal to completion. The Project was broken down into 4 phases, the proposal phase, the planning phase, execution phase, 
+                and review phase. The project proved to be a learning oppurtunity for me as I learned a lot about not only how to manage people, but a lot about 
+                how to remain organized as I had to deal with a lot of drafts, copies of reciepts, and dates. Also I had to learn to adapt as things did not 
+                always go according to plan.
+                <br>
+                <br>Due to my Project their was now an easy way for more elderly community members to cross the small drainage gully and their were new chairs for 
+                community members to sit on. The refurbished rocking chairs also made the church look more inviting.
+
+                <br><br>Troop <a href="https://www.troop642.org/flight-of-eagles.html">https://www.troop642.org/flight-of-eagles.html</a><br>
+                <br><br>Sam Houston BSA Master Eagle List <a href="https://www.samhoustonbsa.org/Data/Sites/1/media/advancement/eagle-wall/shac-eagle-scouts.pdf">https://www.samhoustonbsa.org/Data/Sites/1/media/advancement/eagle-wall/shac-eagle-scouts.pdf</a><br>
+            </p>
+        </div>
+    </div>
+    <img src="assets/IMG_0944.jpg">
+    <img src="assets/IMG_0953.jpg">
+    <img src="assets/IMG_0954.jpg">
+    <img src="assets/IMG_0967.jpg">
+
+
+    <script defer>
+        const urlParams = new URLSearchParams(window.location.search);
+        htmlOnly = urlParams.get('htmlonly');
+    
+        if (htmlOnly !== null) {
+            window.location.href = 'no_html_1/service.html';
+        }
+    </script>
+</body>
+</html>

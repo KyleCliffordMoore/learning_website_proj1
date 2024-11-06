@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #000;
+    height:5vh;
+}
+
+.navbar a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1.25vh 1vw; 
+    text-decoration: none;
+    font-size: 2.3vh; 
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    cursor: pointer;
+}
+
+header {
+    height: 5vh;
+    padding: 20px 0 70px 0;
+    object-fit: cover;
+    background: url(assets/fire.jpg);
+    background-size: cover;
+    
+    filter: blur(6px);
+    background-attachment: fixed fixed;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    height: 5vh;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 5em;
+    margin-top: 2.5%;
+    margin-left: 40%;
+    color: #3e3e3e;
+    font-weight: normal;
+    text-align: center;
+}
+
+body {
+    background: url("assets/wood_background.jpg");
+    background-size: cover;
+}
+
+body .pro1 {
+    height: 55vh;
+    width: 29vw;
+    background-image: url("assets/wood_sign1.png");
+    background-size: cover;
+}
+
+body .pro1 .img1 {
+    position: relative;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16vw;
+    height: 26vh;
+}
+
+body .pro1 .mysquare {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(100, 100, 100, .65);
+
+    top: -7vh;
+    margin-left: 105%;
+    height: 28vh;
+    width: 67vw;  
+}
+
+body .pro1 .mysquare p {
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+body .pro1 .mysquare p a {
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-bottom: 0px;
+}

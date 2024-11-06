@@ -1,0 +1,113 @@
+<link rel="stylesheet" id="stylesheet" href="style_portfolio_2.css">
+<script src="function.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Moore's high quality website!</title>
+</head>
+<body>
+    <header role="banner">
+    </header>
+    <h1>Portfolio</h1>
+    <div class="navbar">
+        <a class="nav_button" href = "index.html">Home</a>
+        <a class="nav_button" href = "portfolio.html">Portfolio</a>
+        <a class="nav_button" href = "qualifications.html">Qualifications</a>
+        <a class="nav_button" href = "service.html">Service</a>
+        <a class="nav_button" href = "ai.html">AI</a>
+        <a class="nav_button" onclick="toggleStyleSheet()">Switch Theme</a>
+    </div>
+    <div class="pro1">
+        <img class="img1" src="assets/proj1.png">
+        
+        <div class="mysquare">
+            <h2>Nutrinotes</h2>
+            <p> 
+                This project's goal was to create a website where you could create a "food catelog" in which you could put all your favorite foods into it or have a 
+                catelog for "junk food", "healthy food", etc. Then Some other user could browse catelogs and decide if they like your catelog and copy it or add foods
+                to make their own. The site also had a friends system so that you could friend another user and the site would show you how long the both of you had 
+                been friends.
+            </p>
+
+            <p>
+                This project involed mostly html with a small amount of javascript for the front end. The backend was made with Python using Flask and GUnicorn to 
+                run the webpage which was hosted on render.com. The backend also included Postgres SQL to save and retrieve data. The github repository can be found 
+                here: <br> <br>
+                <a href="https://github.com/Summer24-CSCE-310-Database-Systems/mvp-nutrinotes">https://github.com/Summer24-CSCE-310-Database-Systems/mvp-nutrinotes</a>
+            </p>
+            
+        </div>
+    </div>
+    <div class="pro1">
+        <img class="img1" src="assets/Proj2.png">
+        
+        <div class="mysquare">
+            <h2>3D Renderer in Java</h2>
+            <p> 
+                This project's goal was to create a simple 3D renderer in Java usiing only Java Swing and no external libraries. The point of this project was 
+                to better understand the math behind 3d renderers so I decided to see how far I could go in making my own. This project is still a work in progress 
+                as I am still researching about backface culling methods to try and fix the problem where some points are out of view of the camera and others are not.
+            </p>
+
+            <p>
+                The github repository can be found here: 
+                <a href="https://github.com/KyleCliffordMoore/JavaBasic3DRenderer">https://github.com/KyleCliffordMoore/JavaBasic3DRenderer</a>
+            </p>
+        </div>
+    </div>
+    <div class="pro1">
+        <img class="img1" src="assets/Proj3.jpg">
+        
+        <div class="mysquare">
+            <h2>Photo to Desmos</h2>
+            <p> 
+                This project's goal was to have some fun by making something that could take an image and return a set of Bézier curves that would form an image 
+                that could be rendered in Desmos.
+            </p>
+
+            <p>
+
+                This project required a lot of research into how Bézier curves worked as well as how Gaussian blurs could help in edge detection. For this project I 
+                used two external libraries: OpenCV which was used to apply blurs, gray scaling, and edge detection. Potrace which was used to take bitmap images 
+                and convert them into a vector image file (I used .svg). I then made a basic .svg interpreter to build the Bézier curves from the file data.
+
+                <br><br>
+                The github repository can be found here: 
+                <a href="https://github.com/KyleCliffordMoore/Desmos-animation">https://github.com/KyleCliffordMoore/Desmos-animation</a>
+            </p>
+        </div>
+    </div>
+    <div class="pro1">
+        <img class="img1" src="assets/Proj4.png">
+        
+        <div class="mysquare">
+            <h2>Current Project - Flux</h2>
+            <p> 
+                This project's goal is just to explore AI as it has been very trendy and I want to see what all of the hype is about.
+            </p>
+
+            <p>
+                I am currently in the automation phase as I have been able to render images by using Flux-Schnell with Comfy-UI, but now I want to take it from 
+                the node based ui to the code itself.
+
+                <br><br>
+                I recommend checking it out github repository can be found here:
+                <br> Flux 
+                <a href="https://blackforestlabs.ai/">https://blackforestlabs.ai/</a>
+                <br> ComfyUI
+                <a href="https://comfyuiweb.com/">https://comfyuiweb.com/</a>
+        </div>
+    </div>
+    <script defer>
+        const urlParams = new URLSearchParams(window.location.search);
+        htmlOnly = urlParams.get('htmlonly');
+    
+        if (htmlOnly !== null) {
+            window.location.href = 'no_html_1/portfolio.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<link rel="stylesheet" id="stylesheet" href="style_qualifications_2.css">
+<script src="function.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Moore's high quality website!</title>
+</head>
+<body>
+    <header role="banner">
+    </header>
+    <h1>Qualifications</h1>
+    <div class="navbar">
+        <a class="nav_button" href = "index.html">Home</a>
+        <a class="nav_button" href = "portfolio.html">Portfolio</a>
+        <a class="nav_button" href = "qualifications.html">Qualifications</a>
+        <a class="nav_button" href = "service.html">Service</a>
+        <a class="nav_button" href = "ai.html">AI</a>
+        <a class="nav_button" onclick="toggleStyleSheet()">Switch Theme</a>
+    </div>
+
+    <div class="mysquare">
+        <img src="assets/resume.png">
+        <div class="content_section">
+            <h2>Technical Skills</h2>
+            <p>
+                Programing languages: Python, Haskell, Java, Javascript/html/css, Dart, C/C++, and PostgresSQL.
+                <br>
+                Tools and Frameworks: Flutter, Flask, JavaFX, Selenium.
+                <br>
+                Methodologies: Swift
+                <br><br>
+                I have developed good understanding of database management and have made multiple websites before. I also have gotten two certifications in 
+                CyberSecurity, the Comptia Security+, and an A&M TEEX hosted one, Digital Forensics Basic.
+
+            </p>
+            <div class="content_section">
+                <h2>Area of Intrest</h2>
+                <p>
+                        I find most parts of Computer Science quite intresting and if I had to do any part I would be happy. 
+                    That being said, I find that I like CyberSecurity, Software Engineering, and Databases are the most intresting. I enjoy the problem solving 
+                    nature of them all. In each one you are given some problem whether that be you need something to run something in polynomial time instead of 
+                    exponetial or you need to find some possible oversight and exploit it. I like the finding the solution to a problem given limited resources, 
+                    nature of these fields.
+                    <br>
+                    <br>
+                    I really enjoy constantly learning about evolving techniques to Computer Science problems. I like that there is always more to learn 
+                    no matter how deep you get into computers.
+                    <br>
+                    <br>
+                    To check my CompTIA Security+ certification use code: YW2LQ5M6EFQ11B5D at <a href="https://verify.CompTIA.org/">https://verify.CompTIA.org/</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <script defer>
+        const urlParams = new URLSearchParams(window.location.search);
+        htmlOnly = urlParams.get('htmlonly');
+    
+        if (htmlOnly !== null) {
+            window.location.href = 'no_html_1/qualifications.html';
+        }
+    </script>
+</body>
+</html>
